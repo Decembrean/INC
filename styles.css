@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&family=Roboto:wght@300&display=swap');
+
+body {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: 'Jost', sans-serif;
+    position: static;
+    /* width: 1200px;
+    height: 2500px; */
+    background: #FFFFFF;
+}
+.header p {
+    position: static;
+    /* width: 1200px;
+    height: 326px; */
+    left: 0px;
+    top: 0px;
+    background: #F3F3F3;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#logo {
+    position: static;
+    width: 219px;
+    height: 193px;
+    left: 491px;
+    top: 15px;
+}
+.maintitle {
+    position: static;
+    /* width: 953px;
+    height: 85px; */
+    left: 123px;
+    top: 203px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
+h1 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-size: 36px;
+}
+.goals {
+    /* position: absolute;
+    width: 1200px;
+    height: 182px;
+    left: 0px;
+    top: 324px;
+    background: #FFFFFF; */
+}
+
+
+
+
+
+/* projects */
+/* position: static;
+width: 1200px;
+height: 606px;
+left: 0px;
+top: 506px; */
+
+/* projects 2 */
+/* position: static;
+width: 1199px;
+height: 303px;
+left: 0px;
+top: 1112px;
+background: #FFFFFF; */
+
+/* news */
+/* position: static;
+width: 1200px;
+height: 868px;
+left: 0px;
+top: 1415px; */
+
+/* footer */
+/* position: static;
+width: 1200px;
+height: 217px;
+left: 0px;
+top: 2283px; */

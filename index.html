@@ -3,20 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <title>Инклюзивная страна</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <img src="favicon.ico" width="219" alt="Логотип">
-        <h1>Ассоциация молодёжных инклюзивных общественных объединений</h1>
-        <hr size="5" noshade width="100%" color="gray"/>
-        <h2>Цель ассоциации</h2>
-        <p>Проекты ассоциации направлены на обучение волонтёров, тренеров, обучение людей с ОВЗ новым навыкам и профессиям, понимание проблем людей с ОВЗ, формирование инклюзивного общества.</p>
+        <div class="header">
+            <h2><img src="eye.png" width="49" alt="Глаз">Версия для слабовидящих</h2>
+            <img src="logo.png" alt="Логотип" id="logo">
+            <h1 class="maintitle">Ассоциация молодёжных инклюзивных общественных объединений</h1>
+        </div>
+        <div class="goals">
+            <h2>Цель ассоциации</h2>
+            <p>Проекты ассоциации направлены на обучение волонтёров, тренеров, обучение людей с ОВЗ новым навыкам и профессиям, понимание проблем людей с ОВЗ, формирование инклюзивного общества.</p>
+        </div>
         <br />
         <h2>Проекты ассоциации</h2>
         <table>
             <tr>
-                <td>logo1</td>
-                <td>logo2</td>
-                <td>logo3</td>
+                <th><img src="schlogo.png" width="162" alt="Логотип школы"></th>
+                <th><img src="delologo.png" width="229" alt="Логотип дела"></th>
+                <th><img src="immerslogo.png" width="205" alt="Логотип выставки"></th>
             </tr>
             <tr>
                 <th><h3>Школа инклюзивных тренеров</h3></th>
@@ -52,9 +57,9 @@
         <h2>Дело в мелочах</h2>
         <table>
             <tr>
-                <td>pic1</td>
-                <td>pic2</td>
-                <td>pic3</td>
+                <td><a href="https://vk.com/video-201007302_456239025" target="_blank"><img src="delopic1.png" width="316" alt="Дело в мелочах фото 1"></a></td>
+                <td><a href="https://vk.com/video-201007302_456239029" target="_blank"><img src="delopic2.png" width="316" alt="Дело в мелочах фото 2"></a></td>
+                <td><a href="https://vk.com/video-201007302_456239031" target="_blank"><img src="delopic3.png" width="316" alt="Дело в мелочах фото 3"></a></td>
             </tr>
         </table>
         <br />
@@ -87,21 +92,21 @@
                 <td><h4>Контакты</h4></td>
             </tr>
             <tr>
-                <td><li><a href="https://www.instagram.com/innclusivecountry/" target="_blank">Instagram</a></li></td>
-                <td><li><a href="https://vk.com/inclusivecountry" target="_blank">Vkontakte</a></li></td>
-                <td><li><a href="https://t.me/inclusivecountry" target="_blank">Telegram</a></li></td>
-                <td><li>+79773138506</li></td>
+                <td><a href="https://www.instagram.com/innclusivecountry/" target="_blank"><img src="instagram.png" width="47" alt="Instagram"></a></td>
+                <td><a href="https://vk.com/inclusivecountry" target="_blank"><img src="vk.png" width="48" alt="Vkontakte"></a></td>
+                <td><a href="https://t.me/inclusivecountry" target="_blank"><img src="telegram.png" width="47" alt="Telegram"></a></td>
+                <td><img src="phone.png" width="48" alt="Phone">+79773138506</td>
             </tr>
         </table>
-        <h3>Связаться со мной</h3>
+        <h3>Обратная связь</h3>
         <form action="">
             <label for="name">Ваше имя:</label>
             <input type="text" id="name" placeholder="Введите имя...">
-            <label for="email">Ваш Email:</label>
+            <label for="email">Ваш email:</label>
             <input type="text" id="email" placeholder="Введите email...">
             <label for="text">Ваше сообщение:</label>
             <textarea name="" id="text" cols="15" rows="2"></textarea>
-            <input type="submit" value="Связаться">
+            <input type="submit" value="Отправить">
         </form>
         <h3>© “Инклюзивная страна”. Все права защищены</h3>
     </footer>
