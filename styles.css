@@ -7,40 +7,11 @@ body {
     font-size: 16px;
     line-height: 23px;
     font-family: 'Jost', sans-serif;
-    position: static;
-    /* width: 1200px;
-    height: 2500px; */
+    /* position: static; */
+    max-width: 1200px;
+    margin: auto;
+    /* height: 2500px; */
     background: #FFFFFF;
-}
-.header p {
-    position: static;
-    /* width: 1200px;
-    height: 326px; */
-    left: 0px;
-    top: 0px;
-    background: #F3F3F3;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-#logo {
-    position: static;
-    width: 219px;
-    height: 193px;
-    left: 491px;
-    top: 15px;
-}
-.maintitle {
-    position: static;
-    /* width: 953px;
-    height: 85px; */
-    left: 123px;
-    top: 203px;
-    font-family: Roboto;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 47px;
-    text-align: center;
-    color: #000000;
 }
 h1 {
     font-size: 16px;
@@ -54,13 +25,71 @@ h1 {
 h2 {
     font-size: 36px;
 }
+.header p {
+    /* position: static; */
+    /* width: 100%; */
+    height: 326px;
+    left: 0px;
+    top: 0px;
+    background: #F3F3F3;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* .logo {
+    position: static;
+    width: 219px;
+    height: 193px;
+    left: 491px;
+    top: 15px;
+} */
+.maintitle {
+    /* position: static; */
+    height: 85px;
+    left: 123px;
+    top: 203px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
 .goals {
-    /* position: absolute;
-    width: 1200px;
+    /* position: absolute; */
     height: 182px;
     left: 0px;
     top: 324px;
-    background: #FFFFFF; */
+    background: #FFFFFF;
+}
+.projects {
+    
+}
+.project1 {
+    
+}
+.project2 {
+    
+}
+.project3 {
+    
+}
+.news {
+    
+}
+.footer {
+    
+}
+.menu {
+    
+}
+.links {
+    
+}
+.feedback {
+    
+}
+.copyrights {
+    
 }
 
 
