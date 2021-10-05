@@ -8,7 +8,7 @@
     <body>
         <div class="header">
             <h2><img src="eye.png" width="49" alt="Глаз">Версия для слабовидящих</h2>
-            <img src="logo.png" alt="Логотип" class="logo" width="219px" height="193px" style="align-content: center;">
+            <img src="logo.png" alt="Логотип" class="logo">
             <h1 class="maintitle">Ассоциация молодёжных инклюзивных общественных объединений</h1>
         </div>
         <div class="goals">
@@ -112,15 +112,23 @@
             </tr>
             </table>
         </div>
-        <div class="feedback">
+        <div class="contact">
             <h3>Обратная связь</h3>
             <form action="">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите имя...">
-                <label for="email">Ваш email:</label>
-                <input type="text" id="email" placeholder="Введите email...">
-                <label for="text">Ваше сообщение:</label>
-                <textarea name="" id="text" cols="15" rows="2"></textarea>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="text" id="email" placeholder="Введите email...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea name="" id="text" cols="15" rows="2"></textarea>
+                </div>
                 <input type="submit" value="Отправить">
             </form>
         </div>
