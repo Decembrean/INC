@@ -7,7 +7,6 @@ body {
     font-size: 16px;
     line-height: 23px;
     font-family: 'Roboto', sans-serif;
-    /* position: static; */
     max-width: 1200px;
     margin: auto;
     /* height: 2500px; */
@@ -46,8 +45,6 @@ h2 {
     margin: 0;
 }
 .header p {
-    /* position: static; */
-    /* width: 100%; */
     display: flex;
     left: 0px;
     top: 0px;
@@ -60,11 +57,6 @@ h2 {
     height: 193px;
 }
 .header .blind-support {
-    /* display: block;
-    width: 289px;
-    height: 27px;
-    font-size: 23px;
-    line-height: 27px; */
     position: absolute;
     top: 50px;
     right: 15px;
@@ -95,7 +87,6 @@ h2 {
     color: #000000;
 }
 .goals {
-    /* position: absolute; */
     height: 182px;
     left: 0px;
     top: 324px;
@@ -169,6 +160,62 @@ h2 {
 .movie-item:last-child {
     padding-right: 0;
 }
+.newsblock {
+    align-items: center;
+}
+.news-item {
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.news-date {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 2px;
+    margin-right: 20px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin-right: 52px;
+}
+.news h2 {
+    margin-bottom: 21px;
+}
+.newsblock hr {
+    width: 1050px;
+    height: 0px;
+    border: 1px solid #000;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.footer {
+    background: #CFCDCD;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.menu span {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.copyrights {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
 /* .project1 {
     
 }
@@ -177,55 +224,6 @@ h2 {
 }
 .project3 {
     
-}
-.news {
-    
-}
-.footer {
-    
-}
-.menu {
-    
-}
-.links {
-    
-}
-.feedback {
-    
-}
-.copyrights {
-    
-} */
-
+}*/
 
 /* font-family: 'Jost', sans-serif; */
-
-
-/* projects */
-/* position: static;
-width: 1200px;
-height: 606px;
-left: 0px;
-top: 506px; */
-
-/* projects 2 */
-/* position: static;
-width: 1199px;
-height: 303px;
-left: 0px;
-top: 1112px;
-background: #FFFFFF; */
-
-/* news */
-/* position: static;
-width: 1200px;
-height: 868px;
-left: 0px;
-top: 1415px; */
-
-/* footer */
-/* position: static;
-width: 1200px;
-height: 217px;
-left: 0px;
-top: 2283px; */
